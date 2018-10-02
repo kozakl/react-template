@@ -1,0 +1,15 @@
+@import './variables.css';
+
+* {
+  box-sizing: border-box;
+}
+
+input, textarea, select {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+body {
+  background: var(--color-background);
+}
